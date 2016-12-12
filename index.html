@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖系统</title>
+    <link href="./css/index.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="lottery-draw">
+    <!--抽奖名单-->
+    <div class="left">
+        <h1>参与用户</h1>
+        <div class="border"></div>
+        <!--抽奖用户列表-->
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="data-pic">
+                        <img src="images/data-pic1.jpg"/>
+                    </div>
+                    <div class="data-num">187****7958</div>
+                    <div class="date-name">忘川</div>
+                    <div class="delete">
+                        <img src="./images/delete.svg"/>
+                    </div>
+                </li>
+                <li>
+                    <div class="data-pic">
+                        <img src="images/data-pic1.jpg"/>
+                    </div>
+                    <div class="data-num">187****7958</div>
+                    <div class="date-name">忘川</div>
+                    <div class="delete">
+                        <img src="./images/delete.svg"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--抽奖名单总数-->
+        <div class="counter">0</div>
+    </div>
+    <!--抽奖active-->
+    <div class="right">
+        <div class="html5_video">
+            <video autoplay="" loop="" src="http://jschyz.github.io/video/cloud.mp4"></video>
+        </div>
+        <div class="content">
+            <div id="icon">
+                <div class="icon-filter"></div>
+            </div>
+            <!--获奖人头像-->
+            <div class="head-pic">
+                <img src="images/headPic.jpg"/>
+            </div>
+            <!--获奖人号码-->
+            <div class="number-draw">
+                <ul class="number" id="numberLeft">
+                    <li>*</li>
+                    <li>*</li>
+                    <li>*</li>
+                </ul>
+                <ul class="number" id="numberCenter">
+                    <li>*</li>
+                    <li>*</li>
+                    <li>*</li>
+                    <li>*</li>
+                </ul>
+                <ul class="number" id="numberRight">
+                    <li>*</li>
+                    <li>*</li>
+                    <li>*</li>
+                    <li>*</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
