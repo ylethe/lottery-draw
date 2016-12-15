@@ -12,52 +12,15 @@
         <h1>参与用户</h1>
         <div class="border"></div>
         <!--抽奖用户列表-->
-        <div class="list">
-            <ul>
-                <li id="one">
+        <div class="list" id="userList">
+            <ul id="users">
+                <li class="user">
                     <div class="data-pic">
-                        <img src="images/data-pic1.jpg"/>
+                        <img src="images/data-pic1.jpg" id="img"/>
                     </div>
                     <div class="data-num">187****7958</div>
                     <div class="date-name">忘川</div>
-                    <div class="delete">
-                        <img src="./images/delete.svg"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="data-pic">
-                        <img src="images/data-pic1.jpg"/>
-                    </div>
-                    <div class="data-num">187****8117</div>
-                    <div class="date-name">聆听</div>
-                    <div class="delete">
-                        <img src="./images/delete.svg"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="data-pic">
-                        <img src="images/data-pic1.jpg"/>
-                    </div>
-                    <div class="data-num">187****4546</div>
-                    <div class="date-name">快乐出发</div>
-                    <div class="delete">
-                        <img src="./images/delete.svg"/>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!--获奖人名单-->
-        <h1>获奖用户</h1>
-        <div class="border"></div>
-        <div class="list">
-            <ul>
-                <li>
-                    <div class="data-pic">
-                        <img src="images/data-pic1.jpg"/>
-                    </div>
-                    <div class="data-num">187****7958</div>
-                    <div class="date-name">忘川</div>
-                    <div class="delete">
+                    <div class="delete" id="first">
                         <img src="./images/delete.svg"/>
                     </div>
                 </li>
@@ -65,6 +28,20 @@
         </div>
         <!--抽奖名单总数-->
         <div class="counter">0</div>
+        <!--获奖人名单-->
+        <h1>获奖用户</h1>
+        <div class="border"></div>
+        <div class="list" id="luckUser">
+            <ul>
+                <li>
+                    <div class="data-pic">
+                        <img src="" id="pic"/>
+                    </div>
+                    <div class="data-num"></div>
+                    <div class="date-name"></div>
+                </li>
+            </ul>
+        </div>
     </div>
     <!--抽奖active-->
     <div class="right" id="right">
