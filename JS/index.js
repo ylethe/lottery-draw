@@ -52,6 +52,15 @@ $(document).ready(function(){
 
     //用户的删除
     $(".delete").click(function(){
+        console.log($(this).prev($('.data-name')).text());
+        for(i in usePeople){
+            if($(this).prev($('.data-name')).text()===usePeople[i].name){
+                console.log('called')
+                // usePeople[i]=usePeople[parseInt(i)+1];
+                // usePeople.length--;
+                usePeople.splice(i,1)
+            }
+        }
         $(this).parents("li").remove();
         var counter=$('.counter').text()-1;
         $(".counter").text(counter);
@@ -84,8 +93,9 @@ $(document).ready(function(){
             if(count%2==0){
                 var numbers1=$("#numberLeft li");
                 var numbers2=$("#numberRight li");
+                var b=usePeople.length-1;
                 draw= setInterval(function () {
-                    var num=randomNum(0,8);
+                    var num=randomNum(0,b);
                     $('.head-pic').children('img').attr("src",usePeople[num].img);
                     var string = usePeople[num].tel.split("");
                     console.log(string);
