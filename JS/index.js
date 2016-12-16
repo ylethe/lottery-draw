@@ -4,8 +4,8 @@
 $(document).ready(function(){
 
     var usePeople=[
-        {tel:"187***1005",name:"忘川",img:"images/data-pic1.jpg/"},
-        {tel:"183***1005",name:"聆空",img:"images/data-pic2.jpg/"},
+        {tel:"187***1005",name:"忘川",img:"images/data-pic1.jpg"},
+        {tel:"183***1005",name:"聆空",img:"images/data-pic2.jpg"},
         {tel:"187***8113",name:"初夏薄荷",img:"images/data-pic3.jpg"},
         {tel:"187***4792",name:"风过无痕",img:"images/data-pic4.jpg"},
         {tel:"135***7674",name:"后会无期",img:"images/data-pic5.jpg"},
@@ -37,8 +37,8 @@ $(document).ready(function(){
         var right= $("#right");
         if(left.is(":hidden")){
             left.css("display", "block");
-            left.animate({width:'15%'},"fast");
-            right.css("width", "85%");
+            left.animate({width:'18%'},"fast");
+            right.css("width", "8%");
             left.animate({width:'20%'},"fast");
             right.css("width", "80%");
             left.animate({width:'25%'},"fast");

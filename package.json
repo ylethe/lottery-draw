@@ -1,0 +1,31 @@
+{
+  "name": "lottery-draw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js --env=dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5143226yjf/lottery-draw.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "lethe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5143226yjf/lottery-draw/issues"
+  },
+  "homepage": "https://github.com/5143226yjf/lottery-draw#readme",
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "open": "0.0.5",
+    "react-hot-loader": "^1.3.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
